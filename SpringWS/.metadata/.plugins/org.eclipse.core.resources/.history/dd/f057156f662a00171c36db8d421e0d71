@@ -1,0 +1,9 @@
+package com.yash.pojo;
+
+public class Hello {
+	
+	public void sayHello(){
+		System.out.println("Hello :  First Spring App");
+	}
+
+}

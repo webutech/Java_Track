@@ -1,0 +1,28 @@
+package com.yash.pojo;
+
+public class Trainee {
+	
+	private String traineeName;
+	private Course course;
+	
+	public Trainee(){
+		System.out.println("-------Trainee Object Created--------");
+	}
+	public String getTraineeName() {
+		return traineeName;
+	}
+	public void setTraineeName(String traineeName) {
+		this.traineeName = traineeName;
+	}
+	public Course getCourse() {
+		return course;
+	}
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+	
+	public void showEnrollMentDetail(){
+		System.out.println(getTraineeName()+ " is enrolled for :"+getCourse().getName()+" for :"+getCourse().getDuration()+" hours");
+	}
+
+}

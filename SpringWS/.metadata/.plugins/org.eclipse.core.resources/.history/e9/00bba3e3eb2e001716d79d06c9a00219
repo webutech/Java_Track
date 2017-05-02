@@ -1,0 +1,33 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+	<bean id="yashTraining" class="com.yash.pojo.Training">
+		<property name="courses">
+			<list>
+				<value>Core Java</value>
+				<value>Adv Java</value>
+				<value>Hibernate</value>
+				<value>Spring</value>
+			</list>		
+		</property>
+		<property name="trainees">
+			<set>
+				<value>Masoom</value>
+				<value>Vishakha</value>
+				<value>Megha</value>
+				<value>Sachin</value>
+			</set>		
+		</property>
+		<property name="mentorMentee">
+			<map>
+				<entry key="sandeep" value="Masoom"/>
+				<entry key="jay" value="Sachin"/>
+				<entry key="vikas" value="Megha"/>
+				
+			</map>
+		</property>
+	</bean>
+</beans>

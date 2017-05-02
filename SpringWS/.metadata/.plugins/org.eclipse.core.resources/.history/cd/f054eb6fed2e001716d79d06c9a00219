@@ -1,0 +1,18 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+	<bean id="dbInfo" class="com.yash.pojo.DBTest">
+		<property name="dataBaseInformation">
+			<props>
+				<prop key="driverClassName">com.mysql.jdbc.Driver</prop>
+				<prop key="url">jdbc:mysql://localhost/mydb</prop>
+				<prop key="userName">root</prop>
+				<prop key="password">password</prop>
+			</props>
+		</property>
+	
+	</bean>
+</beans>

@@ -1,0 +1,14 @@
+package com.yash.main;
+
+import javax.annotation.Resource;
+
+import org.springframework.core.io.ClassPathResource;
+
+public class TestSpring {
+
+	public static void main(String[] args) {
+		Resource resource=new ClassPathResource("resource/beans.xml");
+
+	}
+
+}

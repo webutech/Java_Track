@@ -1,0 +1,36 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/util 
+           http://www.springframework.org/schema/util/spring-util.xsd">
+   
+	<bean id="yashTraining" class="com.yash.pojo.Training">
+		<property name="courses">
+			<util:list list-class="java.util.Vector">
+				<value>Core Java</value>
+				<value>Adv Java</value>
+				<value>Hibernate</value>
+				<value>Spring</value>
+			</util:list>	
+		</property>
+		<property name="trainees">
+			<util:set set-class="java.util.TreeSet">
+				<value>Masoom</value>
+				<value>Vishakha</value>
+				<value>Megha</value>
+				<value>Sachin</value>
+			</util:set>	
+		</property>
+		<property name="mentorMentee">
+			<util:map map-class="java.util.Hashtable">
+				<entry key="sandeep" value="Masoom"/>
+				<entry key="jay" value="Sachin"/>
+				<entry key="vikas" value="Megha"/>
+				
+			</util:map>
+		</property>
+	</bean>
+</beans>
