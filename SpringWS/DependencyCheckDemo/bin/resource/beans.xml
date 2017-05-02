@@ -1,0 +1,13 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+   
+	<bean id="employee" class="com.yash.pojo.Employee" dependency-check="all">
+		<property name="name" value="Pankaj"/>
+		<property name="benefits" ref="benefits"/>
+	</bean>
+	
+	<bean id="benefits" class="com.yash.pojo.Benefits">
+		<property name="salaryBenefits" value="true"/>
+	</bean>
+</beans>
