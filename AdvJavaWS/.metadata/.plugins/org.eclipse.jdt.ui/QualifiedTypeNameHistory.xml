@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.yash.capp.db.JDBCUtil"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.yash.capp.domain.BaseContact"/>
+<fullyQualifiedTypeName name="com.yash.capp.domain.Contact"/>
+<fullyQualifiedTypeName name="com.yash.capp.domain.User"/>
+<fullyQualifiedTypeName name="com.yash.capp.dao.ContactDao"/>
+<fullyQualifiedTypeName name="com.yash.pojo.Address"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.yash.cms.model.BaseContact"/>
+<fullyQualifiedTypeName name="com.yash.cms.util.JDBCUtil"/>
+<fullyQualifiedTypeName name="com.yash.cms.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.yash.cms.test.UserDaoImplTest"/>
+<fullyQualifiedTypeName name="com.yash.cms.daoimpl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.yash.cms.model.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.yash.cms.dao.ContactDao"/>
+<fullyQualifiedTypeName name="com.yash.cms.daoimpl.ContactDaoImpl"/>
+<fullyQualifiedTypeName name="com.yash.cms.service.ContactService"/>
+<fullyQualifiedTypeName name="com.yash.cms.serviceimpl.ContactServiceImpl"/>
+<fullyQualifiedTypeName name="com.yash.cms.model.Contact"/>
+</qualifiedTypeNameHistroy>

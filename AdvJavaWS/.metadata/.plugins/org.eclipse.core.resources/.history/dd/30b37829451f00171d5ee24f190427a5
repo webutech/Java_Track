@@ -1,0 +1,20 @@
+package com.yash.cms.serviceimpl;
+
+import com.yash.cms.model.User;
+import com.yash.cms.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public void userRegistration(User user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public User userAuthetication(String userid, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

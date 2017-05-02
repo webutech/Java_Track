@@ -1,0 +1,4 @@
+<jsp:useBean id="employee" class="com.yash.pojo.Employee"/>
+<h2>Thanks for the Registration</h2><br>
+Name :  <jsp:getProperty property="name" name="employee"/><br>
+Salary :  <jsp:getProperty property="salary" name="employee"/><br>

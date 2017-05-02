@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyContactApplication/WebContent/listContact.jsp&apos; to &apos;listContactProcess.jsp&apos;" description="Rename resource &apos;listContact.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/listContact.jsp" name="listContactProcess.jsp" stamp="1491987836651" updateReferences="true"/>
+</session>

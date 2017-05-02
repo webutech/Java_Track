@@ -1,0 +1,5 @@
+127.0.0.1 - - [22/Feb/2017:19:24:11 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:19:24:13 +0530] "GET /FirstDynamicWebApp/TestServlet HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:19:24:33 +0530] "GET /FirstDynamicWebApp/TestServlet HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:19:24:33 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:19:24:33 +0530] "GET /favicon.ico HTTP/1.1" 404 973

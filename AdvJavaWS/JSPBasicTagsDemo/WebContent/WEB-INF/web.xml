@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JSPBasicTagsDemo</display-name>
+  <context-param>
+  	<param-name>param1</param-name>
+  	<param-value>value of param1</param-value>
+  </context-param>
+  
+  <servlet>
+  	<servlet-name>myjsp</servlet-name>
+  	<jsp-file>/WEB-INF/jsppages/other.jsp</jsp-file>
+  	<init-param>
+  		<param-name>count</param-name>
+  		<param-value>10</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>myjsp</servlet-name>
+  	<url-pattern>/other</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="=tddfrombasicdemo/src\/main\/java" key="org.moreunit.wizards.NewClassWizard.packageFragmentRoot.tddfrombasicdemo"/>
+	<item value="false" key="NewTestCaseCreationWizardPage.USE_TEARDOWNCLASS"/>
+	<item value="false" key="NewTestCaseCreationWizardPage.USE_SETUP"/>
+	<item value="false" key="NewTestCaseCreationWizardPage.USE_TEARDOWN"/>
+	<item value="=StringApp/src\/main\/java" key="org.moreunit.wizards.NewClassWizard.packageFragmentRoot.StringApp"/>
+	<item value="false" key="NewTestCaseCreationWizardPage.USE_CONSTRUCTOR"/>
+	<item value="false" key="NewTestCaseCreationWizardPage.USE_SETUPCLASS"/>
+	<item value="=MoneyTestDemo/src\/main\/java" key="org.moreunit.wizards.NewClassWizard.packageFragmentRoot.MoneyTestDemo"/>
+	<item value="=tdd-demo/src\/main\/java" key="org.moreunit.wizards.NewClassWizard.packageFragmentRoot.tdd-demo"/>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+</section>

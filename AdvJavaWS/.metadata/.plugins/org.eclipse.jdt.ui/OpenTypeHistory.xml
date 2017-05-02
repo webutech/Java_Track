@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=YashContactApp/src&lt;com.yash.capp.db{JDBCUtil.java[JDBCUtil" modifiers="1" timestamp="1490171834264"/>
+<typeInfo handle="=MyContactApplication/src&lt;com.yash.cms.dao{UserDao.java[UserDao" modifiers="513" timestamp="1491976756677"/>
+<typeInfo handle="=MyContactApplication/src&lt;com.yash.cms.dao{ContactDao.java[ContactDao" modifiers="513" timestamp="1491902696983"/>
+<typeInfo handle="=MyContactApplication/src&lt;com.yash.cms.util{JDBCUtil.java[JDBCUtil" modifiers="1" timestamp="1491888163520"/>
+<typeInfo handle="=MyContactApplication/src&lt;com.yash.cms.service{ContactService.java[ContactService" modifiers="513" timestamp="1491917161061"/>
+</typeInfoHistroy>

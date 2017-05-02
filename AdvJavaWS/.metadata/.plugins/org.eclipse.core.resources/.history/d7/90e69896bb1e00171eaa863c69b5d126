@@ -1,0 +1,28 @@
+package com.yash.cms.serviceimpl;
+
+import java.util.List;
+
+import com.yash.cms.model.Contact;
+import com.yash.cms.service.ContactService;
+
+public class ContactServiceImpl implements ContactService {
+
+	@Override
+	public void createNewContact(Contact contact) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void editContactByContactId(int contactId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Contact> listAllContactsByUserId(int userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

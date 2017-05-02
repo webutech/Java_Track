@@ -1,0 +1,11 @@
+package markerinterfacedemo;
+
+public class Tester implements Employee {
+
+	@Override
+	public void doSomething() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

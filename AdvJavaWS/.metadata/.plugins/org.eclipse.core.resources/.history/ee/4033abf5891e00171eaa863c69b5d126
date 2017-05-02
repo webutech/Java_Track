@@ -1,0 +1,22 @@
+package com.yash.cms.dao;
+
+import java.util.List;
+
+import com.yash.cms.model.User;
+
+/**
+ * UserDao is a Repository design to communicate with DB
+ * 1. user insertion
+ * 2. user deletion
+ * 3. user updation
+ * 4. user retreaval 
+ * @author sharma.pankaj
+ *
+ */
+public interface UserDao {
+	public void insertUser(User user);
+	public void deleteUser(int userid);
+	public void editUser(int userid);
+	public List<User> getAllUsers();
+
+}

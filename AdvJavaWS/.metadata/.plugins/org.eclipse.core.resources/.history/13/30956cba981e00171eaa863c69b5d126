@@ -1,0 +1,9 @@
+package com.yash.cms.dao;
+
+import com.yash.cms.model.Contact;
+
+public interface ContactDao {
+	
+	public void insertContact(Contact contact);
+
+}

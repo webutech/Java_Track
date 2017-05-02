@@ -1,0 +1,17 @@
+<%@page import="com.yash.cms.model.User"%>
+<%@page import="com.yash.cms.serviceimpl.UserServiceImpl"%>
+<%@page import="com.yash.cms.service.UserService"%>
+<%
+	String userid=request.getParameter("userid");
+	String password=request.getParameter("password");
+	
+	// service object is required to call userAuthentication method. 
+	
+	UserService userService=new UserServiceImpl();
+	User loggedInUser= userService.userAuthetication(userid, password);
+	// put the loggedinuser in session object
+	session.setAttribute("loggedInUser", loggedInUser);
+	// redirect on welcome page
+	
+	
+%>

@@ -1,0 +1,50 @@
+
+public class Game {
+
+	public void game(String choice)
+	{
+		char ch=choice.toLowerCase().charAt(0);
+		do
+		{
+			switch (ch) {
+			case 'R': report('R','P','S');
+			           break;
+			case 'P': report('P','S','R');
+	           			break;
+			case 'S': report('S','P','R');
+						break;
+//			case 'Q': quit();
+//	           			break;
+			default: System.out.println("Please enter correct choice"); 
+				break;
+		}
+		}while(true);
+	}
+
+	private char report(char userI1,char userI2, char computerI) {
+		if(userI1=='R' && userI2=='P' && computerI=='S'  )
+		{
+			System.out.println("you drew"+userI1+"I drew : "+userI1);
+			System.out.println("computer wins");
+			return userI2;
+		}
+		if(userI1=='P' && userI2=='S' && computerI=='R')
+		{
+			System.out.println("you drew"+userI1+"I drew : "+userI1);
+			return userI2;
+		}
+		if(userI1=='S' && userI2=='R' && computerI=='P')
+		{
+			System.out.println("you drew"+userI1+"I drew : "+userI1);
+			return userI2;
+		}
+		else
+			return 'd';
+	}
+	void winner(char ch)
+	{
+		if(ch!='d')
+			System.out.println(" nhp ");
+	}
+
+}

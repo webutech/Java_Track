@@ -1,0 +1,8 @@
+<jsp:useBean id="employee" class="com.yash.pojo.Employee" scope="request"/>
+	
+Name :  <jsp:getProperty property="name" name="employee"/><br>
+Salary :  <jsp:getProperty property="salary" name="employee"/><br>
+<br>
+Address Details <br><hr>
+H.No: ${employee.address.hno}
+

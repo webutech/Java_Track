@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;other.jsp&apos; to &apos;jsppages&apos;" description="Move &apos;other.jsp&apos; to &apos;jsppages&apos;" destination="WebContent/WEB-INF/jsppages" element1="WebContent/other.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1490854579968" updateReferences="true"/>
+</session>

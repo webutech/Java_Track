@@ -1,0 +1,56 @@
+package com.yash.cms.daoimpl;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.yash.cms.dao.ContactDao;
+import com.yash.cms.model.Contact;
+import com.yash.cms.util.JDBCUtil;
+
+public class ContactDaoImpl extends JDBCUtil implements ContactDao {
+
+	@Override
+	public void insertContact(Contact contact) {
+		PreparedStatement pstmt=super.createPreparedStatement("insert into contact(userId, name, email, phone, address, category) values"
+				+ "?,?,?,?,?,?");
+		try{
+		pstmt.setInt(1, contact.getUserid());
+		pstmt.setString(2, contact.getName());
+		pstmt.setString(3, contact.getEmail());
+		pstmt.setString(4, contact.getPhone());
+		pstmt.setString(5, contact.getAddress());
+		pstmt.setString();
+		
+		
+		}
+		catch(SQLException ex){
+			ex.printStackTrace();
+		}
+		finally {
+			super.closePreparedStatement(pstmt);
+			super.closeConnection();
+		}
+		
+		
+	}
+
+	@Override
+	public void deleteContact(int contactId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateContact(Contact contact) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Contact> getAllContactsByUserId(int userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.yash.capp.test;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.yash.capp.db.JDBCUtil;
+
+public class JDBCUtilTest {
+
+	private static final Logger logger=
+			LoggerFactory.getLogger(JDBCUtilTest.class);
+	public static void main(String[] args) {
+		JDBCUtil jdbcUtil=new JDBCUtil();
+		PreparedStatement pstmt=jdbcUtil.createPreparedStatement("insert into contact(userId,name) values(?,?)");
+		try {
+			pstmt.setInt(1, 10);
+			pstmt.setString(2, "Aman");
+			pstmt.execute();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		logger.info(pstmt.toString());
+		
+
+	}
+
+}

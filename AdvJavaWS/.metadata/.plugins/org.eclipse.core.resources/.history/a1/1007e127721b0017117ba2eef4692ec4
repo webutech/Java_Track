@@ -1,0 +1,12 @@
+package com.yash.cms.test;
+
+import com.yash.cms.util.JDBCUtil;
+
+public class JDBCUtilTest {
+
+	public static void main(String[] args) {
+		new JDBCUtil();
+
+	}
+
+}

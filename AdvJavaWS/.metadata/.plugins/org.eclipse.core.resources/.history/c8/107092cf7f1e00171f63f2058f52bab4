@@ -1,0 +1,48 @@
+package com.yash.cms.daoimpl;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.yash.cms.dao.UserDao;
+import com.yash.cms.model.User;
+import com.yash.cms.util.JDBCUtil;
+
+public class UserDaoImpl extends JDBCUtil implements UserDao {
+
+	/**
+	 * this will insert the user in DB.
+	 */
+	@Override
+	public void insertUser(User user) {
+		PreparedStatement pstmt=super.createPreparedStatement("insert into user(name,phone) values (?,?)");
+		try {
+			pstmt.setString(1, user.getName());
+			pstmt.setString(2, user.getPhone());
+			pstmt.execute();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+
+	}
+
+	@Override
+	public void deleteUser(int userid) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void editUser(int userid) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<User> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

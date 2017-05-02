@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Inheritace_Demo&apos;&#x0D;&#x0A;- Original project: &apos;Inheritace_Demo&apos;&#x0D;&#x0A;- Original element: &apos;com.yash.model.Address.java&apos;" description="Delete element" element1="/src&lt;com.yash.model{Address.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1492669691948" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,6 @@
+<jsp:useBean id="employee" class="com.yash.pojo.Employee" scope="request">
+	<jsp:setProperty name="employee" property="name"/>
+	<jsp:setProperty name="employee" property="salary"/>
+</jsp:useBean>
+
+<jsp:forward page="employeeView.jsp"/>

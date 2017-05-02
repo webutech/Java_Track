@@ -1,0 +1,271 @@
+
+Mar 08, 2017 07:53:03.20 NEW SESSION
+Mar 08, 2017 07:53:03.20 [Child 7952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 08, 2017 07:53:03.20 [Child 7952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 08, 2017 07:54:51.54 [Child 6492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Mar 15, 2017 06:40:06.17 NEW SESSION
+Mar 15, 2017 06:40:06.17 1489540206162	addons.xpi	WARN	Error parsing extensions.xpiState {"app-profile":{"{b9bfaf1c-a63f-47cd-8b9a-29526ced9060}":{"d":"C:\\Users\\sharma.pankaj\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gcee3tv4.default\\extensions\\{b9bfaf1c-a63f-47cd-8b9a-29526ced9060}.xpi","e":true,"v":"1.8.10","st":1487136270041}},"app-system-addons":{"aushelper@mozilla.org":{"d":"C:\\Users\\sharma.pankaj\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gcee3tv4.default\\features\\{fbc04202-3547-4551-b257-422f58513338}\\aushelper@mozilla.org.xpi","e":true,"v":"1.5","st":1488522069560},"diagnostics@mozilla.org":{"d":"C:\\Users\\sharma.pankaj\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gcee3tv4.default\\features\\{fbc04202-3547-4551-b257-422f58513338}\\diagnostics@mozilla.org.xpi","e":true,"v":"1.0","st":1488522069144},"disableSHA1rollout@mozilla.org":{"d":"C:\\Users\\sharma.pankaj\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gcee3tv4.default\\features\\{fbc04202-3547-4551-b257-422f58513338}\\disableSHA1rollout@mozilla.org.xpi","e":true,"v":"1.3","st":1488522069144},"hsts-priming@mozilla.org":{"d":"C:\\Users\\sharma.pankaj\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gcee3tv4.default\\features\\{fbc04202-3547-4551-b257-422f58513338}\\hsts-priming@mozilla.org.xpi","e":true,"v":"1.0","st":1488522069144}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","e":false,"v":"1.0","st":1485835123725},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.7","st":1485835123725},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.5","st":1485835123725},"webcompa
+Mar 15, 2017 06:40:06.17 
+Mar 15, 2017 06:40:06.17 t@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1485835123725}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"51.0.1","st":1485835123740}}}: SyntaxError: JSON.parse: bad control character in string literal at line 1 column 1757 of the JSON data (resource://gre/modules/addons/XPIProvider.jsm:2260:15) JS Stack trace: loadExtensionState@XPIProvider.jsm:2260:15 < getInstallState@XPIProvider.jsm:2275:20 < this.XPIProvider.checkForChanges@XPIProvider.jsm:3770:26 < this.XPIProvider.startup@XPIProvider.jsm:2813:25 < callProvider@AddonManager.jsm:235:12 < _startProvider@AddonManager.jsm:788:5 < AddonManagerInternal.startup@AddonManager.jsm:972:9 < this.AddonManagerPrivate.startup@AddonManager.jsm:3016:5 < amManager.prototype.observe@addonManager.js:71:9
+Mar 15, 2017 06:40:06.42 1489540206427	addons.xpi-utils	WARN	Disabling foreign installed add-on bingsearch.full@microsoft.com in app-profile
+Mar 15, 2017 06:40:23.03 [Child 2656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 06:40:37.01 [Child 6260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 06:40:37.01 [Child 6260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 06:42:57.76 [Child 7932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 06:46:08.38 1489540568383	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 15, 2017 06:49:07.69 1489540747691	addons.repository	WARN	Search failed when repopulating cache
+Mar 15, 2017 06:49:07.85 1489540747847	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.85 1489540747848	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.85 1489540747850	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.85 1489540747854	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.86 1489540747855	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.86 1489540747856	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.86 1489540747858	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.86 1489540747860	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 15, 2017 06:49:07.86 1489540747862	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 15, 2017 06:49:07.86 1489540747864	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 15, 2017 06:49:07.87 1489540747867	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.87 1489540747868	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.87 1489540747868	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.89 1489540747885	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Mar 15, 2017 06:49:07.90 1489540747896	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 15, 2017 06:49:07.90 1489540747896	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:120:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:120:16
+Mar 15, 2017 06:51:07.73 *************************
+Mar 15, 2017 06:51:07.73 A coding exception was thrown and uncaught in a Task.
+Mar 15, 2017 06:51:07.73 
+Mar 15, 2017 06:51:07.73 Full message: TypeError: NetworkError when attempting to fetch resource.
+Mar 15, 2017 06:51:07.73 Full stack: 
+Mar 15, 2017 06:51:07.73 *************************
+Mar 15, 2017 07:04:48.79 [Child 2972] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 08:28:41.48 [Child 6396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 15, 2017 08:28:41.48 [Child 6396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Mar 18, 2017 01:26:58.11 NEW SESSION
+Mar 18, 2017 01:26:58.11 [Child 6992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 18, 2017 01:29:09.37 1489780749384	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Mar 18, 2017 01:29:56.14 [Child 6352] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 18, 2017 01:47:17.26 1489781837270	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Mar 18, 2017 01:47:17.45 1489781837462	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Mar 18, 2017 01:47:17.48 1489781837497	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Mar 18, 2017 01:47:17.54 1489781837548	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Mar 18, 2017 01:47:17.54 1489781837559	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+Mar 18, 2017 01:47:17.65 1489781837660	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+Mar 18, 2017 01:47:17.78 1489781837784	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+Mar 18, 2017 01:47:17.82 1489781837841	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Mar 18, 2017 01:51:47.40 [Child 9452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Mar 22, 2017 11:11:18.60 NEW SESSION
+Mar 22, 2017 11:11:18.60 [Child 12256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 11:11:24.88 [Child 12896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 11:11:24.88 
+Mar 22, 2017 11:11:24.89 ###!!! [Child][MessageChannel] Error: (msgtype=0x9C0025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.89 
+Mar 22, 2017 11:11:24.89 
+Mar 22, 2017 11:11:24.89 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.89 
+Mar 22, 2017 11:11:24.89 
+Mar 22, 2017 11:11:24.89 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.89 
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x46010A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x46010A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x46010A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.90 
+Mar 22, 2017 11:11:24.91 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+Mar 22, 2017 11:11:24.91 
+Mar 22, 2017 11:13:43.73 [Child 12328] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 11:20:39.05 [Child 14260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 12:10:38.59 [Child 1448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 18:37:03.87 [Child 11316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 22, 2017 18:39:47.81 [Child 8300] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Mar 30, 2017 11:16:43.79 NEW SESSION
+Mar 30, 2017 11:16:43.79 [Child 6928] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 30, 2017 11:24:31.45 [Child 6652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 30, 2017 11:24:31.45 [Child 6652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 30, 2017 11:48:55.03 [Child 7636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 30, 2017 12:49:55.44 [Child 9524] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Mar 30, 2017 13:27:05.34 [Child 3756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 03, 2017 18:33:04.87 NEW SESSION
+Apr 03, 2017 18:33:04.87 [Child 10092] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:33:04.87 [Child 10092] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:33:39.80 [Child 6536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:33:39.80 [Child 6536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:37:59.89 [Child 9180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:39:28.28 [Child 9452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:39:28.28 [Child 9452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:40:21.75 [Child 8952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:42:00.00 [Child 6348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:42:00.00 [Child 6348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:44:04.21 [Child 8536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:44:04.21 [Child 8536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:50:41.21 [Child 1184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:50:41.21 [Child 1184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:52:42.51 [Child 7316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:52:42.51 [Child 7316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 18:54:09.08 [Child 9896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 19:00:23.88 [Child 6892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 19:00:23.88 [Child 6892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 19:01:19.64 [Child 4276] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 03, 2017 19:01:19.64 [Child 4276] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 04, 2017 13:46:44.92 NEW SESSION
+Apr 04, 2017 13:46:44.92 [Child 3260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 14:36:25.20 1491296785207	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+Apr 04, 2017 14:36:25.23 1491296785233	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Apr 04, 2017 14:36:25.24 1491296785247	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Apr 04, 2017 14:36:25.47 1491296785480	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Apr 04, 2017 14:36:25.50 1491296785506	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Apr 04, 2017 14:36:27.20 1491296787207	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Apr 04, 2017 14:52:22.42 [Child 8652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 14:53:22.63 [Child 10184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 14:54:02.58 [Child 10088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 14:54:02.59 [Child 10088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 16:56:52.38 [Child 708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 16:56:52.38 [Child 708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:00:23.40 [Child 8164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:00:23.40 [Child 8164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:12:42.47 [Child 8308] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:37:03.99 [Child 9096] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:39:37.57 [Child 7216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:39:37.57 [Child 7216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 17:50:42.88 [Child 8496] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:12:59.11 [Child 780] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:13:38.97 [Child 9308] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:13:38.98 [Child 9308] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:14:15.21 [Child 6636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:14:15.21 [Child 6636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:14:44.00 [Child 9604] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:49:53.71 [Child 4836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:51:17.18 [Child 7228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:59:47.15 [Child 9476] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 18:59:47.15 [Child 9476] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 19:04:38.37 [Child 4192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 04, 2017 19:04:38.37 [Child 4192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 05, 2017 10:50:25.53 NEW SESSION
+Apr 05, 2017 10:50:25.53 [Child 8348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 05, 2017 10:54:15.78 [Child 9968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 05, 2017 14:25:06.59 [Child 10168] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 06, 2017 08:50:22.39 NEW SESSION
+Apr 06, 2017 08:50:22.39 [Child 1732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 06, 2017 10:44:56.94 NEW SESSION
+Apr 06, 2017 10:44:56.94 [Child 10164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:44:56.95 [Child 10164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:47:58.75 [Child 7000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:47:58.75 [Child 7000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:49:42.41 [Child 8748] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:50:55.14 [Child 6032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 10:50:55.14 [Child 6032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 11:59:12.16 [Child 7272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 11:59:12.16 [Child 7272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 12:00:26.86 [Child 9456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 12:00:26.86 [Child 9456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 06, 2017 14:20:29.83 NEW SESSION
+Apr 06, 2017 14:20:29.83 [Child 1452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:20:29.84 [Child 1452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:30:15.09 [Child 7864] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:30:15.09 [Child 7864] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:31:25.04 [Child 7752] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:31:25.04 [Child 7752] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:32:39.65 [Child 3420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:35:51.99 [Child 12036] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:35:51.99 [Child 12036] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:37:34.83 [Child 2668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:39:23.46 [Child 5852] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 14:39:23.46 [Child 5852] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:06:30.04 [Child 10228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:07:09.56 1491471429561	addons.repository	WARN	Search failed when repopulating cache
+Apr 06, 2017 15:07:09.65 [Child 8492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:07:09.65 1491471429652	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.65 1491471429653	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.65 1491471429654	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.65 1491471429654	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429655	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429657	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429658	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429660	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429660	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.66 1491471429666	addons.update-checker	WARN	Request failed for an unknown reason
+Apr 06, 2017 15:07:09.68 1491471429679	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Apr 06, 2017 15:07:09.75 1491471429755	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Apr 06, 2017 15:07:09.75 1491471429756	addons.xpi	ERROR	Failed to download system add-on gmp-eme-adobe: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:325:16) JS Stack trace: downloadFile/</fail@ProductAddonChecker.jsm:325:16
+Apr 06, 2017 15:07:09.76 1491471429758	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Apr 06, 2017 15:07:09.76 1491471429759	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:325:16) JS Stack trace: downloadFile/</fail@ProductAddonChecker.jsm:325:16
+Apr 06, 2017 15:07:09.76 1491471429762	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Apr 06, 2017 15:07:09.76 1491471429763	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:325:16) JS Stack trace: downloadFile/</fail@ProductAddonChecker.jsm:325:16
+Apr 06, 2017 15:07:09.76 1491471429765	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIProvider.jsm:3228:13) JS Stack trace: this.XPIProvider.updateSystemAddons<@XPIProvider.jsm:3228:13
+Apr 06, 2017 15:17:25.90 [Child 6196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:17:25.90 [Child 6196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:22:50.76 [Child 7820] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:23:42.87 [Child 10260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:24:15.03 [Child 9340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:30:05.14 [Child 12044] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:33:56.51 [Child 8320] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 06, 2017 15:40:29.92 [Child 11396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 11, 2017 12:00:24.95 NEW SESSION
+Apr 11, 2017 12:00:24.95 [Child 5616] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 11, 2017 12:00:24.95 [Child 5616] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 11, 2017 12:04:09.12 [Child 6576] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+Apr 12, 2017 11:04:50.07 NEW SESSION
+Apr 12, 2017 11:04:50.07 [Child 6368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 11:04:50.07 [Child 6368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 11:05:14.39 [Child 7768] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 11:05:51.99 [Child 7180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 11:14:02.09 [Child 9908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 11:16:39.48 [Child 10060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:02:03.84 [Child 9700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:02:03.84 [Child 9700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:32:54.31 [Child 9652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:33:44.66 [Child 8396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:34:33.55 [Child 10552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:35:29.11 [Child 4488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:36:17.38 [Child 9348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:37:22.74 [Child 10424] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:48:46.90 [Child 8976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:52:11.26 [Child 4652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 12:52:11.26 [Child 4652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 13:02:40.01 [Child 6636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 13:02:40.01 [Child 6636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 13:51:00.88 [Child 10696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 13:52:44.77 [Child 12184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 13:56:39.10 [Child 7272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:04:12.10 [Child 10944] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:05:04.86 [Child 9688] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:07:40.75 [Child 5220] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:07:40.75 [Child 5220] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:20:25.29 [Child 10700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:20:25.30 [Child 10700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:30:14.89 [Child 10268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:30:14.90 [Child 10268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:51:09.36 [Child 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:52:01.22 [Child 7840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:53:27.93 [Child 3704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:53:27.93 [Child 3704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:54:27.71 [Child 3344] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:55:33.11 [Child 7736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:56:42.53 [Child 8492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 14:58:53.65 1491989333649	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+Apr 12, 2017 14:58:53.66 1491989333661	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Apr 12, 2017 14:58:53.70 1491989333700	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Apr 12, 2017 14:58:53.71 1491989333713	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Apr 12, 2017 14:58:53.90 1491989333907	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Apr 12, 2017 14:58:53.95 1491989333950	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Apr 12, 2017 14:58:53.96 1491989333962	addons.update-checker	WARN	Update manifest for disable-prefetch@mozilla.org did not contain an updates property
+Apr 12, 2017 14:59:10.61 [Child 12264] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 15:09:05.68 [Child 1784] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 15:38:57.87 [Child 3108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 15:55:00.11 [Child 7224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+Apr 12, 2017 15:55:00.11 [Child 7224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345

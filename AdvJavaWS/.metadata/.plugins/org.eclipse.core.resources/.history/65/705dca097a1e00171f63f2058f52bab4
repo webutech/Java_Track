@@ -1,0 +1,5 @@
+package com.yash.cms.model;
+
+public class Contact {
+
+}

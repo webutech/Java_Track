@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v7.0"/>
+		<item value="Pivotal tc Server Developer Edition (Runtime) v3.1"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\apache-tomcat-7.0.64\webapps\FirstDynamicWebApp.war"/>
+		<item value="C:\apache-tomcat-7.0.64\webapps\VideoUploadDownloadDemo.war"/>
+	</list>
+</section>

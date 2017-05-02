@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="employeeProcess.jsp">
+	<table>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="name"/></td>
+		</tr>
+		<tr>
+			<td>salary</td>
+			<td><input type="text" name="salary"/></td>
+		</tr>
+		
+		<tr>
+			<td>House No</td>
+			<td><input type="text" name="hno"/></td>
+		</tr>
+		<tr>
+			<td>state</td>
+			<td><input type="text" name="address.state"/></td>
+		</tr>
+		<tr>
+			<td>city</td>
+			<td><input type="text" name="address.city"/></td>
+		</tr>
+		<tr>
+			<td>zip</td>
+			<td><input type="text" name="address.zip"/></td>
+		</tr>
+		<tr>
+			
+			<td colspan="2"><input type="submit" value="Save"/></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>

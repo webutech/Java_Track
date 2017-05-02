@@ -1,0 +1,35 @@
+package com.yash.cms.daoimpl;
+
+import java.util.List;
+
+import com.yash.cms.dao.ContactDao;
+import com.yash.cms.model.Contact;
+import com.yash.cms.util.JDBCUtil;
+
+public class ContactDaoImpl extends JDBCUtil implements ContactDao {
+
+	@Override
+	public void insertContact(Contact contact) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteContact(int contactId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateContact(Contact contact) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Contact> getAllContactsByUserId(int userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

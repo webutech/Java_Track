@@ -1,0 +1,26 @@
+package com.yash.colbasics.service;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import com.yash.colbasics.pojo.Document;
+public class DocumentService {	
+	List<Document> documents;
+	public DocumentService() {
+		documents=new ArrayList<>();
+		documents.add(new Document(1, "java basics", "basics of java", 101));
+		documents.add(new Document(1, "java basics", "basics of java", 101));
+		documents.add(new Document(2, "collection", "java collection API", 101));
+		documents.add(new Document(3, "multithreading", "java multithreading with executor framework", 102));
+		documents.add(new Document(4, "jdbc", "advance jdbc concepts", 101));		
+	}	
+	public List<Document> getAllDocuments(){
+		return documents;
+	}
+	
+	public Set<Document> getNonDuplicateDocuments(){
+		Set<Document> nonDuplicateDocuments=new HashSet<>(documents);
+		return nonDuplicateDocuments;
+	}
+}

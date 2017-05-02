@@ -1,0 +1,26 @@
+/**
+ * If user is Admin user then only let him enter in the system. 
+ * else show that you are blocked to enter in the system
+ * @author sharma.pankaj
+ *
+ */
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+		String userRole="Manager";
+		System.out.println("-------------First Line----------------");
+		try{
+		if(userRole.equals("Admin")){
+			System.out.println("Welcome  : "+userRole);
+		}
+		else{
+			throw new RuntimeException("You are blocked to enter in system");
+		}
+		}
+		catch(RuntimeException ex){
+			System.out.println("Error : "+ex.getMessage());
+		}
+		System.out.println("-------------First Line----------------");
+	}
+
+}

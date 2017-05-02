@@ -1,0 +1,10 @@
+package com.yash.model;
+
+public class InternalProject extends Project {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

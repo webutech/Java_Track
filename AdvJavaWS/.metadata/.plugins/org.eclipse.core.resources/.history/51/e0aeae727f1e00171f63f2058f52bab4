@@ -1,0 +1,13 @@
+package com.yash.cms.test;
+
+import com.yash.cms.dao.UserDao;
+import com.yash.cms.daoimpl.UserDaoImpl;
+
+public class UserDaoImplTest {
+
+	public static void main(String[] args) {
+		UserDao userDao=new UserDaoImpl();
+
+	}
+
+}

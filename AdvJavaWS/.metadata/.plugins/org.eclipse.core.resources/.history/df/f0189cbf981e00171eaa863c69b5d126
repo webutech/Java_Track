@@ -1,0 +1,8 @@
+package com.yash.cms.daoimpl;
+
+import com.yash.cms.dao.ContactDao;
+import com.yash.cms.util.JDBCUtil;
+
+public class ContactDaoImpl extends JDBCUtil implements ContactDao {
+
+}

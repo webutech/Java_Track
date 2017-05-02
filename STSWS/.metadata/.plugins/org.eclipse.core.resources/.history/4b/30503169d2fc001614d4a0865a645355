@@ -1,0 +1,10 @@
+package com.yash.reallifedemo;
+
+public class GetUrlContent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

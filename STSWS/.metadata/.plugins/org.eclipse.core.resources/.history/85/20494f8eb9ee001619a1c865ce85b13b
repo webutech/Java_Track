@@ -1,0 +1,19 @@
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+		String userRole="Manager";
+		try{
+		if(userRole.equals("Admin")){
+			System.out.println("Welcome  : "+userRole);
+		}
+		else{
+			throw new RuntimeException("You are blocked to enter in system");
+		}
+		}
+		catch(RuntimeException ex){
+			System.out.println("Error : "+ex.getMessage());
+		}
+	}
+
+}

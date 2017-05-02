@@ -1,0 +1,5 @@
+package com.yash.cms.dao;
+
+public interface UserDao {
+
+}

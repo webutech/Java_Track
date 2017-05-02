@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-02-28T17:15:13</date>
+  <millis>1488282313926</millis>
+  <sequence>0</sequence>
+  <logger>loggerdemo</logger>
+  <level>INFO</level>
+  <class>filehandler.LogToFileUsingFileHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>--logging started---</message>
+</record>
+<record>
+  <date>2017-02-28T17:15:13</date>
+  <millis>1488282313958</millis>
+  <sequence>1</sequence>
+  <logger>loggerdemo</logger>
+  <level>SEVERE</level>
+  <class>filehandler.LogToFileUsingFileHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Devide by Zero</message>
+</record>
+<record>
+  <date>2017-02-28T17:15:13</date>
+  <millis>1488282313959</millis>
+  <sequence>2</sequence>
+  <logger>loggerdemo</logger>
+  <level>INFO</level>
+  <class>filehandler.LogToFileUsingFileHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>---logging done----</message>
+</record>
+</log>

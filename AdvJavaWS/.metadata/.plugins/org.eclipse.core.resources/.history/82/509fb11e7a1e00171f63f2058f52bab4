@@ -1,0 +1,8 @@
+package com.yash.cms.model;
+
+public class Contact {
+	
+	private int contactid;
+	
+
+}

@@ -1,0 +1,16 @@
+<%@include file="imports.jsp"%>
+<%
+	String userid=request.getParameter("userid");
+	String password=request.getParameter("password");
+	
+	// service object is required to call userAuthentication method. 
+	
+	UserService userService=new UserServiceImpl();
+	User loggedInUser= userService.userAuthetication(userid, password);
+	// put the loggedinuser in session object
+	session.setAttribute("loggedInUser", loggedInUser);
+	session.setAttribute("loggedInUserId", loggedInUser.getUserid());
+	// redirect on welcome page
+	pageContext.forward("welcome.jsp");
+	
+%>

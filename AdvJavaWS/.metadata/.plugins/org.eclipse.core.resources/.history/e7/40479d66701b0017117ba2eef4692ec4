@@ -1,0 +1,5 @@
+package com.yash.cms.util;
+
+public class JDBCUtil {
+
+}

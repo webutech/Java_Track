@@ -1,0 +1,57 @@
+package com.yash.cms.filter;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet Filter implementation class ContactAppFrontControllerFilter
+ */
+@WebFilter("/ContactAppFrontControllerFilter")
+public class ContactAppFrontControllerFilter implements Filter {
+
+    /**
+     * Default constructor. 
+     */
+    public ContactAppFrontControllerFilter() {
+       
+    }
+
+	/**
+	 * @see Filter#destroy()
+	 */
+	public void destroy() {
+		// TODO Auto-generated method stub
+	}
+
+	/**
+	 * @see Filter#doFilter(ServletRequest, ServletResponse, FilterChain)
+	 */
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		System.out.println(request instanceof HttpServletRequest);
+
+        HttpServletRequest req=(HttpServletRequest) req;
+        HttpServletResponse response=(HttpServletResponse) response;
+
+        String uri=req.getRequestURI();
+        String resource=uri.substring(uri.lastIndexOf("/")+1);
+        //first page/login page will be executed without login
+
+		chain.doFilter(req, response);
+	}
+
+	/**
+	 * @see Filter#init(FilterConfig)
+	 */
+	public void init(FilterConfig fConfig) throws ServletException {
+		// TODO Auto-generated method stub
+	}
+
+}

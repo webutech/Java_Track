@@ -1,0 +1,16 @@
+package com.yash.cms.model;
+
+public class Contact extends BaseContact{
+	
+	private int contactid;
+
+	public int getContactid() {
+		return contactid;
+	}
+
+	public void setContactid(int contactid) {
+		this.contactid = contactid;
+	}
+	
+
+}

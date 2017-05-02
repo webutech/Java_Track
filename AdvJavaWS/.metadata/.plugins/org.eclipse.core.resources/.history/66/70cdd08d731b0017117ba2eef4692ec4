@@ -1,0 +1,21 @@
+package com.yash.cms.test;
+
+import java.sql.Connection;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.yash.cms.util.JDBCUtil;
+
+
+public class JDBCUtilTest {
+
+	private static final Logger logger=
+			LoggerFactory.getLogger(JDBCUtilTest.class);
+	public static void main(String[] args) {
+		JDBCUtil jdbcUtil=new JDBCUtil();
+		Connection con=jdbcUtil.openConnection();
+		logger.info(con.toString());
+	}
+
+}

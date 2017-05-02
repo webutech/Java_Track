@@ -1,0 +1,14 @@
+package com.yash;
+/**
+ * 
+ * @author sharma.pankaj
+ *
+ */
+
+public class Category {
+	
+	private Long categoryId=System.currentTimeMillis();
+	private String name;
+	
+
+}
