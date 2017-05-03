@@ -1,0 +1,39 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byType">
+
+
+	<!-- Mannual Dependecy
+	<bean id="epmDao" class="com.yash.pojo.EmployeeDao" />
+
+	<bean id="epmSer" class="com.yash.pojo.EmployeeService">
+		<property name="employeeDao" ref="epmDao" />
+	</bean> -->
+
+	<!-- Auto Dependecy - byType
+	<bean id="epmDao" class="com.yash.pojo.EmployeeDao" />
+	<bean id="employeeDao" class="com.yash.pojo.EmployeeDao" />
+	<bean id="epmSer" class="com.yash.pojo.EmployeeService" autowire="byType"/>
+	-->
+	
+	<!-- Auto Dependecy - byName
+	<bean id="epmDao" class="com.yash.pojo.EmployeeDao" />
+	<bean id="employeeDao" class="com.yash.pojo.EmployeeDao" />
+	<bean id="epmSer" class="com.yash.pojo.EmployeeService" autowire="byName"/>
+	-->
+	
+	<!-- Auto Dependecy - byType - but restrict not eligible bean for autowiring
+	<bean id="epmDao" class="com.yash.pojo.EmployeeDao" />
+	<bean id="employeeDao" class="com.yash.pojo.EmployeeDao" autowire-candidate="false" />
+	<bean id="epmSer" class="com.yash.pojo.EmployeeService" autowire="byType"/>	
+	 -->
+	 
+	 <!-- Enable the default-autowire-->
+	
+	<bean id="employeeDao" class="com.yash.pojo.EmployeeDao"/>
+	<bean id="epmSer" class="com.yash.pojo.EmployeeService"/>	
+	 
+	 
+	 
+</beans>
