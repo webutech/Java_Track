@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- BeanNameUrlHeandlerMapping -->
+	
+	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+	
+	<!-- Controller -->
+	
+	<bean name="/hello.ds" class="com.yash.basicapp.controller.HelloController"/>
+	<!-- View Resolver -->
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/"/>
+  		<property name="suffix" value=".jsp"/>
+	</bean>
+</beans>
