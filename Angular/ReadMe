@@ -1,0 +1,30 @@
+---------------------------------------
+Set up steps for Angular Application
+---------------------------------------
+
+1. Create a folder in any location and name it as helloworld_angular_app
+2. Download the QuickStart-Angular zip file as provided
+3. Copy and paste it in the helloworld_angular_app folder, from the download location
+4. Unzip the quick-start
+5. Go inside the folder and select all files. 
+6. Paste in helloworld_angular_app folder and delete the quickstart_angular zip and folder that was created during unzipping. 
+
+-----------------------------------------------------
+Now run below commands to clear all unwanted files. 
+-----------------------------------------------------
+1. open the command prompt and go inside the helloworld_angular_app folder
+2. run below command one by one
+for /f %i in (non-essential-files.txt) do del %i /F /S /Q
+rd .git /s /q
+rd e2e /s /q
+
+-----------------------------------------------------------
+Now run below command to run the application
+-----------------------------------------------------------
+1. open the command prompt and go inside the helloworld_angular_app folder
+2. run below command one by one
+
+npm install;
+npm start;
+
+your application will be launch on http://localhost:3000
