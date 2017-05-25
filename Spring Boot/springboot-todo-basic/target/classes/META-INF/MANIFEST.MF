@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Boot Todo App basic application
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sharma.pankaj
+Implementation-Vendor-Id: com.yash.springboot
+Build-Jdk: 1.8.0_65
+Implementation-URL: http://projects.spring.io/spring-boot/springboot-t
+ odo-basic/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
