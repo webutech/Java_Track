@@ -1,0 +1,8 @@
+<h3>Top Todos</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let todo of todos"  [routerLink]="['/detail', todo.id]"  class="col-1-4">
+    <div class="module todo">
+      <h4>{{todo.name}}</h4>
+    </div>
+  </a>
+</div>
