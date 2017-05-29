@@ -1,0 +1,10 @@
+<div *ngIf="todo">
+        <h2>{{todo.name}} - details!</h2>
+            <div><label>id: </label>{{todo.id}}</div>
+            <div>
+                <label>name: </label>
+                <input [(ngModel)]="todo.name" placeholder="add task">
+            </div>
+            <button (click)="goBack()">Go Back</button>
+</div>
+<button (click)="save()">Save</button>
