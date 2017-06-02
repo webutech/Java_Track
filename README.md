@@ -1,4 +1,4 @@
-# YASH_JAN_2017_BATCH
+# Java Technology
 Standard Technology related programs. 
 
 Hi All,
